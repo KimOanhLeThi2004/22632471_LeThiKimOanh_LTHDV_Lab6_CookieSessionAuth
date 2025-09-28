@@ -23,25 +23,25 @@ It demonstrates **authentication using session and cookies** with MongoDB.
 
 ## API Endpoints
 ### Register
-- **POST** `/auth/register`
+- **POST** `http://localhost:3000/auth/register`
 - Body:
   ```json
   { "username": "oanh", "password": "22632471" }
   ```
 
 ### Login
-- **POST** `/auth/login`
+- **POST** `http://localhost:3000/auth/login`
 - Body:
   ```json
   { "username": "oanh", "password": "22632471" }
   ```
 
 ### Profile
-- **GET** `/auth/profile`  
+- **GET** `http://localhost:3000/auth/profile`  
 - Requires valid session cookie.
 
 ### Logout
-- **GET** `/auth/logout`  
+- **GET** `http://localhost:3000/auth/logout`  
 - Destroys session and clears cookie.
 
 ---
