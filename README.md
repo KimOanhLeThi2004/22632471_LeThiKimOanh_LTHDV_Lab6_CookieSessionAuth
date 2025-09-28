@@ -26,14 +26,14 @@ It demonstrates **authentication using session and cookies** with MongoDB.
 - **POST** `http://localhost:3000/auth/register`
 - Body:
   ```json
-  { "username": "oanh", "password": "22632471" }
+  { "username": "koanh", "password": "22632471" }
   ```
 
 ### Login
 - **POST** `http://localhost:3000/auth/login`
 - Body:
   ```json
-  { "username": "oanh", "password": "22632471" }
+  { "username": "koanh", "password": "22632471" }
   ```
 
 ### Profile
